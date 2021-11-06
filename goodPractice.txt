@@ -1,0 +1,9 @@
+1. al tratar de tomar  process.env.USER me tomo el user de linux
+   asi que lo cambié por process.env.USERNAME
+
+2. .env generalmente se coloca en gitignore para no 
+   compartir esa info de manera pública(mongo)
+
+1. Para crear token no pases el campo de PASSWORD  
+   , solo pueden desempcriptar, se pasa es ej:
+   username y id...
