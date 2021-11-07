@@ -26,9 +26,12 @@ mongoose
 
 // import routes
 const authRoutes = require("./routes/auth");
+const validaToken = require("./routes/validate-token");
+const admin = require("./routes/admin");
 
 // route middlewares
 app.use("/api/user", authRoutes);
+app.use("/api/admin", validaToken, admin);
 
 // iniciar server
 const PORT = process.env.PORT || 3001;
