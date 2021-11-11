@@ -5,5 +5,5 @@
    compartir esa info de manera pública(mongo)
 
 1. Para crear token no pases el campo de PASSWORD  
-   , solo pueden desempcriptar, se pasa es ej:
+   , solo pueden desemcriptar, se pasa es ej:
    username y id...
